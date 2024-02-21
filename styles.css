@@ -25,5 +25,19 @@ body{
   padding: 0;
   margin: 0;
   font-family: var(--sans);
+  background-color: var(--black);
+  color:whitesmoke;
+  font-size: var(--font-size);
 }
 
+h1, h2, h3{
+  margin: 0;
+}
+a {
+  color: var(--magenta);
+}
+
+a:hover{
+  color: var(--hotmag);
+  text-decoration:none;
+}
